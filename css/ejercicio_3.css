@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    background-color: #d1d1d1;
+}
+
+.menu-main {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.menu-main a {
+    flex: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 45px;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    background: #3b5998;
+    align-items: center;
+    margin: 0px 5px;
+    transform: skew(-45deg);
+}
+
+.menu-main a span {
+    transform: skew(45deg);
+}
+
+.menu-main a:hover {
+    background: #29487d;
+}
+
+.menu-main a.active {
+    background: #29487d;
+}
